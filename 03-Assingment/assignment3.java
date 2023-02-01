@@ -1,7 +1,7 @@
 import java.util.*;
 public class assignment3{
 	static void quest1(){
-		System.out.println("Q1-Write a Program to display Following operations");
+		System.out.println("Q.1 Write a program to display Even or odd numbers ");
 		double a = 151.23f;
 		double b = 2515.51f;
 		float c = (float)(a + b);

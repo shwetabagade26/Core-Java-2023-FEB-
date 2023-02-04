@@ -1,5 +1,5 @@
 import java.util.*;
-public class assignment3{
+public class assignment4{
 	static void quest1(){
 		System.out.println("Q.1 Write a program to display Even or odd numbers ");
 		Scanner sc= new Scanner(System.in);

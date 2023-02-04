@@ -1,16 +1,15 @@
 import java.util.*;
 public class assignment4{
 	static void quest1(){
-		System.out.println("Q.1 Write a program to display Even or odd numbers ");
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter a number");
-		int num = sc.nextInt();
-		if (num%2==0){
-			System.out.println(num +" is even number");
+		System.out.println("Q.1 Write a program to calculate the sum of first 10 natural  ");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the range :");
+		int range= sc.nextInt();
+		int sum=0;
+		for(int i=0;i<=range;i++){
+				sum+=i;
 		}
-		else{
-			System.out.println(num +" is odd number");
-		}	
+		System.out.println(sum);
 	}
 	static void quest2(){
 		System.out.println("Q.2 Write a Java Program to find sum of Even Numbers");

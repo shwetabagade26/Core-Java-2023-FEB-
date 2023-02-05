@@ -52,7 +52,24 @@ public class assignment6{
 		System.out.println("buffer append " + strf1.append(strf));
 		System.out.println("builder reverse " + strd1.reverse());
 		System.out.println("buffer reverse  " + strf1.reverse());
-		
+		System.out.println("builder delete " + strd1.delete(1,4));
+		System.out.println("buffer delete  " + strf1.delete(1,4));
+		System.out.println("builder insert " + strd1.insert(2,'A'));
+		System.out.println("buffer insert  " + strf1.insert(2,'A'));
+		System.out.println("builder replace " + strd1.replace(1,4,"ABC"));
+		System.out.println("buffer replace  " + strf1.replace(1,4,"ABC"));
+		System.out.println("builder charAt " + strd1.charAt(3));
+		System.out.println("buffer charAt  " + strf1.charAt(3));
+		System.out.println("builder capacity " + strd1.capacity());
+		System.out.println("buffer capacity  " + strf1.capacity());
+		//System.out.println("builder ensure capacity  " + strd1.ensureCapacity(12));
+		//System.out.println("buffer ensure capacity  " + strf1.ensureCapacity(15));
+		System.out.println("builder Index of " + strd1.indexOf("doori"));
+		System.out.println("buffer Index of  " + strf1.indexOf("andy"));
+		System.out.println("builder length " + strd1.length());
+		System.out.println("buffer length  " + strf1.length());
+		System.out.println("builder substring " + strd1.substring(3,5));
+		System.out.println("buffer substring" + strf1.substring(0,4));
 		
 	}
 
